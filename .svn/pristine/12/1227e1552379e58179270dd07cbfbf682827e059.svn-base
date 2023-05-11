@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace eSyaPatientPortal.DL.Entities
+{
+    public partial class GtEfoppd
+    {
+        public long HospitalNumber { get; set; }
+        public decimal Vdkey { get; set; }
+        public bool IsPpscanned { get; set; }
+        public string PassportNumber { get; set; }
+        public DateTime DateOfIssue { get; set; }
+        public string PlaceOfIssue { get; set; }
+        public DateTime PassportExpiresOn { get; set; }
+        public int VisaType { get; set; }
+        public DateTime VisaIssueDate { get; set; }
+        public DateTime VisaExpiryDate { get; set; }
+        public bool ActiveStatus { get; set; }
+        public int CreatedBy { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public string CreatedTerminal { get; set; }
+        public int? ModifiedBy { get; set; }
+        public DateTime? ModifiedOn { get; set; }
+        public string ModifiedTerminal { get; set; }
+    }
+}

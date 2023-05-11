@@ -1,0 +1,22 @@
+﻿using eSyaPatientPortal.DO;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace eSyaPatientPortal.IF
+{
+    public interface IAppointmentBookingRepository
+    {
+        Task<DO_ReturnParameter> InsertIntoDoctorSlotBooking(DO_PatientAppointmentDetail obj);
+
+        Task<DO_ReturnParameter> InsertIntoPatientAppointmentDetail(DO_PatientAppointmentDetail obj);
+
+        Task<List<DO_Doctor>> GetDoctorScheduleByBKeyDoctorDate(int businessKey, int specialtyId, int doctorId, DateTime appointmentDate);
+
+        Task<List<DO_PatientAppointmentDetail>> GetAppointmentBookedSlotByDoctorDate(int businessKey, int specialtyId,
+          int doctorId, DateTime scheduleDate);
+
+
+    }
+}

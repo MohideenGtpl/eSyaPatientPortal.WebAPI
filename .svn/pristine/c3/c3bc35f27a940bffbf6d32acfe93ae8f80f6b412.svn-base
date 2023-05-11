@@ -1,0 +1,48 @@
+﻿using eSyaPatientPortal.DL.Entities;
+using eSyaPatientPortal.DO;
+using eSyaPatientPortal.IF;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace eSyaPatientPortal.DL.Repository
+{
+    public class BusinessLocationRepository: IBusinessLocationRepository
+    {
+        //private eSyaEnterpriseContext Context { get; }
+        //public BusinessLocationRepository(eSyaEnterpriseContext _context)
+        //{
+        //    this.Context = _context;
+        //}
+
+        public async Task<List<DO_BusinessLocation>> GetBusinessLocation()
+        {
+            //var bl = await Context.GtEcbsln
+            //                .Where(w => w.ActiveStatus)
+            //                .Select(r => new DO_BusinessLocation
+            //                {
+            //                    BusinessKey = r.BusinessKey,
+            //                    BusinessName = r.BusinessName
+            //                }).ToListAsync();
+
+            using (var db = new eSyaEnterpriseContext())
+            {
+                var bl = await db.GtEcbsln
+                            .Where(w => w.ActiveStatus)
+                            .Select(r => new DO_BusinessLocation
+                            {
+                                BusinessKey = r.BusinessKey,
+                                BusinessName = r.BusinessName
+                            }).ToListAsync();
+
+                //us.l_BusinessKey = ub.Select(x => new KeyValuePair<int, string>(x.BusinessKey, x.BusinessName))
+                //   .ToDictionary(x => x.Key, x => x.Value);
+
+                return bl;
+            }
+        }
+    }
+}

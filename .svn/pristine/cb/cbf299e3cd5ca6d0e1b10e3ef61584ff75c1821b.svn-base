@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace eSyaPatientPortal.DL.Entities
+{
+    public partial class GtEfopvd
+    {
+        public long HospitalNumber { get; set; }
+        public DateTime VisitDate { get; set; }
+        public int SerialNumber { get; set; }
+        public int BusinessKey { get; set; }
+        public string RegistrationType { get; set; }
+        public string PatientClass { get; set; }
+        public string VisitType { get; set; }
+        public string VisitClass { get; set; }
+        public string VisitCategory { get; set; }
+        public decimal Vdkey { get; set; }
+        public int PatientType { get; set; }
+        public int PatientCategory { get; set; }
+        public int RatePlan { get; set; }
+        public decimal AppointmentKey { get; set; }
+        public bool IsVip { get; set; }
+        public bool IsMlc { get; set; }
+        public bool IsRecommendedByStaff { get; set; }
+        public string RecommenderName { get; set; }
+        public bool IsStaff { get; set; }
+        public bool IsStaffDependent { get; set; }
+        public bool IsStudent { get; set; }
+        public int SourceOfReference { get; set; }
+        public int SubSor { get; set; }
+        public string BillStatus { get; set; }
+        public bool ActiveStatus { get; set; }
+        public int CreatedBy { get; set; }
+        public DateTime CreatedOn { get; set; }
+        public string CreatedTerminal { get; set; }
+        public int? ModifiedBy { get; set; }
+        public DateTime? ModifiedOn { get; set; }
+        public string ModifiedTerminal { get; set; }
+    }
+}

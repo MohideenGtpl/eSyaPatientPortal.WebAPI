@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using eSyaPatientPortal.IF;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace eSyaPatientPortal.WebAPI.Controllers
+{
+    [Route("api/[controller]/[action]")]
+    [ApiController]
+    public class BusinessLocationController : ControllerBase
+    {
+
+        private readonly IBusinessLocationRepository _businessLocationRepository;
+
+        public BusinessLocationController(IBusinessLocationRepository businessLocationRepository)
+        {
+            _businessLocationRepository = businessLocationRepository;
+        }
+
+        public async Task<IActionResult> GetBusinessLocation()
+        {
+            var ds = await _businessLocationRepository.GetBusinessLocation();
+            return Ok(ds);
+        }
+    }
+}

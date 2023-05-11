@@ -1,0 +1,12 @@
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\bin\Debug\netcoreapp2.2\eSyaPatientPortal.IF.deps.json
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\bin\Debug\netcoreapp2.2\eSyaPatientPortal.IF.dll
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\bin\Debug\netcoreapp2.2\eSyaPatientPortal.IF.pdb
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\bin\Debug\netcoreapp2.2\eSyaPatientPortal.DO.dll
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\bin\Debug\netcoreapp2.2\eSyaPatientPortal.DO.pdb
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\obj\Debug\netcoreapp2.2\eSyaPatientPortal.IF.csprojAssemblyReference.cache
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\obj\Debug\netcoreapp2.2\eSyaPatientPortal.IF.csproj.CoreCompileInputs.cache
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\obj\Debug\netcoreapp2.2\eSyaPatientPortal.IF.AssemblyInfoInputs.cache
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\obj\Debug\netcoreapp2.2\eSyaPatientPortal.IF.AssemblyInfo.cs
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\obj\Debug\netcoreapp2.2\eSyaPatientPortal.IF.csproj.CopyComplete
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\obj\Debug\netcoreapp2.2\eSyaPatientPortal.IF.dll
+D:\eSya Project\Solution\Project_eSyaWebAPI\eSyaPatientPortal.WebAPI\trunk\eSyaPatientPortal.IF\obj\Debug\netcoreapp2.2\eSyaPatientPortal.IF.pdb
